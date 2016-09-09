@@ -1,7 +1,7 @@
 <?php
     session_start();
-    if (empty($_SESSION['list_of_tasks'])) {
-    $_SESSION['list_of_tasks'] = array();
+    if (empty($_SESSION['list_of_contacts'])) {
+    $_SESSION['list_of_contacts'] = array();
     }
 
     date_default_timezone_set('America/Los_Angeles');
