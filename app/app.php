@@ -4,9 +4,5 @@
 
     $app = new Silex\Application();
 
-    $app->get("/hello", function() {
-        return "Hello friend!";
-    });
-
     return $app;
 ?>
